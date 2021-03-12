@@ -17,6 +17,10 @@
   ],
   "author": "JairusSW",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JairusSW/as-latin1"
+  },
   "devDependencies": {
     "@assemblyscript/loader": "^0.18.14",
     "assemblyscript": "^0.18.14"
