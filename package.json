@@ -1,0 +1,24 @@
+{
+  "name": "as-latin1",
+  "version": "1.0.0",
+  "description": "Latin1 encode/decode in AssemblyScript",
+  "types": "./assembly/index.ts",
+  "scripts": {
+    "test": "node tests",
+    "asbuild:untouched": "asc assembly/index.ts --target debug",
+    "asbuild:optimized": "asc assembly/index.ts --target release",
+    "asbuild": "npm run asbuild:untouched && npm run asbuild:optimized"
+  },
+  "keywords": [
+    "assemblyscript",
+    "hex",
+    "encode",
+    "decode"
+  ],
+  "author": "JairusSW",
+  "license": "MIT",
+  "devDependencies": {
+    "@assemblyscript/loader": "^0.18.14",
+    "assemblyscript": "^0.18.14"
+  }
+}
